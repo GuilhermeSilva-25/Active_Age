@@ -1,13 +1,17 @@
 .hero {
+  align-items: end;
+  border: 1px solid red;
   background-color: var(--cor-clara);
   background-image: url(../img/banner.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  padding: 10rem 0;
+  display: flex;
+  height: 100%;
 }
 
 .hero__caixa {
-  padding: 8rem 0 8rem 10rem;
+  padding: 0 10rem;
+  margin-bottom: 5rem;
   width: 70rem;
 }
 
