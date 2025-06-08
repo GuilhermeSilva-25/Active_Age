@@ -1,0 +1,42 @@
+.incentivo {
+  padding: 6rem 1rem;
+}
+
+.incentivo__caixa {
+  background-color: var(--cor-card-incentivo);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+  padding: 5rem;
+}
+
+.incentivo__card {
+  align-items: center;
+  background-color: var(--cor-clara);
+  border: .1rem solid var(--cor-escura);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.6rem;
+}
+
+.incentivo__card-icone {
+  height: 10rem;
+  margin: 1.6rem 0;
+  width: 10rem;
+}
+
+.incentivo__card-texto {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.incentivo__imagens {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+  width: 100%;
+}

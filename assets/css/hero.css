@@ -1,6 +1,5 @@
 .hero {
   align-items: end;
-  border: 1px solid red;
   background-color: var(--cor-clara);
   background-image: url(../img/banner.png);
   background-size: cover;

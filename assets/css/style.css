@@ -4,6 +4,7 @@
 /* FOLHAS DE ESTILOS */
 @import url(cabecalho.css);
 @import url(hero.css);
+@import url(incentivo.css);
 
 /* VARIÁVEIS CSS */
 :root {
@@ -11,6 +12,7 @@
   --cor-botoes-hover: #4C9F38;
   --cor-gradiente: #dadada;
   --cor-fundo: #FFFDD0;
+  --cor-card-incentivo: #4C9F38;
   --cor-escura: #000;
   --cor-clara: #f5f5f5;
   --font-principal: "Open Sans", sans-serif;
@@ -27,4 +29,8 @@ body {
   font-family: var(--font-principal);
   font-size: 62.5%;
   height: 100vh;
+}
+
+main {
+  background-color: var(--cor-fundo);
 }
