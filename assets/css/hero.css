@@ -1,0 +1,30 @@
+.hero {
+  background-color: var(--cor-clara);
+  background-image: url(../img/banner.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10rem 0;
+}
+
+.hero__caixa {
+  padding: 8rem 0 8rem 10rem;
+  width: 70rem;
+}
+
+.hero__titulo {
+  color: var(--cor-fundo);
+  font-size: 8rem;
+  font-weight: bold;
+  text-shadow: -0.1rem -0.1rem 0 var(--cor-escura),
+    0.1rem -0.1rem 0 var(--cor-escura), -0.1rem 0.1rem 0 var(--cor-escura),
+    0.1rem 0.1rem 0 var(--cor-escura), -0.4rem 0.8rem 1rem var(--cor-escura);
+}
+
+.hero__texto {
+  color: var(--cor-fundo);
+  font-size: 3.4rem;
+  font-weight: bold;
+  text-shadow: -0.1rem -0.1rem 0 var(--cor-escura),
+    0.1rem -0.1rem 0 var(--cor-escura), -0.1rem 0.1rem 0 var(--cor-escura),
+    0.1rem 0.1rem 0 var(--cor-escura), -0.4rem 0.8rem 1rem var(--cor-escura);
+}

@@ -1,7 +1,7 @@
 # Active Age
 
 <p align="center">
-  <img src="assets/img/logo_completo_fundo_branco.svg" alt="Brasão do Superman" />
+  <img src="assets/img/logo_completo_fundo_branco.svg" alt="Logo do projeto Active Age" />
 </p>
 
 <p align="center">
