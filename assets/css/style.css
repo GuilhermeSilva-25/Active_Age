@@ -5,6 +5,7 @@
 @import url(cabecalho.css);
 @import url(hero.css);
 @import url(incentivo.css);
+@import url(planos.css);
 
 /* VARIÁVEIS CSS */
 :root {
@@ -13,6 +14,8 @@
   --cor-gradiente: #dadada;
   --cor-fundo: #FFFDD0;
   --cor-card-incentivo: #4C9F38;
+  --cor-ponto-lista: #4C9F38;
+  --cor-card-planos: #4E3629;
   --cor-escura: #000;
   --cor-clara: #f5f5f5;
   --font-principal: "Open Sans", sans-serif;

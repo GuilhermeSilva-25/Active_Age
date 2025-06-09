@@ -1,0 +1,78 @@
+.planos {
+  padding-bottom: 5rem;
+}
+
+.planos__caixa {
+  margin: 0 auto;
+  width: 40rem;
+}
+
+.planos__titulo {
+  border-bottom: .2rem solid var(--cor-escura);
+  display: inline-block;
+  font-size: 4rem;
+  padding: 0 3rem .5rem 3rem;
+  text-align: center;
+  width: auto;
+}
+
+.planos__card {
+  background-color: var(--cor-clara);
+  border: .1rem solid var(--cor-escura);
+  border-radius: 3rem;
+  margin: 3rem auto;
+  padding: 3rem;
+  width: 90%;
+}
+
+.planos__card-texto {
+  font-size: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.planos__card-icones {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.planos__opcoes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.planos__opcoes-card {
+  background-color: var(--cor-card-planos);
+  border-radius: 3rem;
+  color: var(--cor-clara);
+  padding: 1.6rem;
+  width: 20%;
+}
+
+.planos__opcoes-titulo {
+  font-size: 2.4rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 30%;
+}
+
+.planos__opcoes-preco {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.planos__opcoes-lista {
+  list-style: none;
+}
+
+
+.planos__opcoes-item span {
+  color: var(--cor-ponto-lista);
+}
+
+.planos__opcoes-item {
+  font-size: 1.6rem;
+  margin-bottom: .5rem;
+}
