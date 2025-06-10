@@ -34,7 +34,49 @@
       </nav>
     </header>
     <main class="main">
-      
+      <div class="login">
+        <h1 class="login__titulo">Fazer login</h1>
+        <div class="login__container">
+          <form class="login__formulario">
+            <div>
+              <label for="login" class="login__formulario-label">Login: </label><br>
+              <input
+                type="text"
+                name="login"
+                id="login"
+                class="login__formulario-input"
+                placeholder="Insira seu nome"
+              />
+            </div>
+            <div>
+              <label for="senha" class="login__formulario-label">Senha: </label><br>
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                class="login__formulario-input"
+                placeholder="Insira sua senha"
+              />
+            </div>
+            <div class="login__container">
+              <button type="button" class="login__botao">Entrar</button>
+            </div>
+          </form>
+          <div class="login__imagem">
+            <img
+              src="assets/img/imagens-login.png"
+              alt="Pessoas idosas correndo"
+              class="login__imagem-imagem"
+            />
+          </div>
+        </div>
+        <h2 class="login__subtitulo">Sem cadastro?</h2>
+        <p class="login__texto">
+          <a href="cadastro.html" class="login__link-cadastro"
+            >Clique aqui e crie uma nova conta</a
+          >
+        </p>
+      </div>
     </main>
     <footer class="rodape">
       <div class="rodape__container">
@@ -78,7 +120,8 @@
           <div>
             <h3 class="rodape__titulo">Endereço</h3>
             <p class="rodape__texto">
-              Fatec Diadema - Luigi Papaiz<br> Av. Luiz Merenda, 443 Campanário<br>
+              Fatec Diadema - Luigi Papaiz<br />
+              Av. Luiz Merenda, 443 Campanário<br />
               Diadema SP, 09931-390
             </p>
           </div>

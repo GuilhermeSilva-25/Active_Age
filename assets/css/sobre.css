@@ -4,15 +4,12 @@
 
 .sobre__titulo {
   border-bottom: .1rem solid var(--cor-escura);
-  color: var(--cor-clara);
+  color: var(--cor-titulo);
   display: inline-block;
   font-size: 3rem;
   font-weight: bolder;
   margin-left: 3rem;
   padding: 3rem 8rem .5rem 3rem;
-  text-shadow: -0.1rem -0.1rem 0 var(--cor-escura),
-    0.1rem -0.1rem 0 var(--cor-escura), -0.1rem 0.1rem 0 var(--cor-escura),
-    0.1rem 0.1rem 0 var(--cor-escura);
 }
 
 .sobre__whats {

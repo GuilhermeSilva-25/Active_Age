@@ -7,6 +7,7 @@
 @import url(incentivo.css);
 @import url(planos.css);
 @import url(sobre.css);
+@import url(login.css);
 @import url(rodape.css);
 
 /* VARIÁVEIS CSS */
@@ -19,6 +20,10 @@
   --cor-ponto-lista: #4C9F38;
   --cor-card-planos: #4E3629;
   --cor-card-our: #4E3629;
+  --cor-card-formulario: #DADADA;
+  --cor-sombra-card: #00000040;
+  --cor-link-cadastro: #E15C38;
+  --cor-titulo: #E15C38;
   --cor-escura: #000;
   --cor-clara: #fff;
   --font-principal: "Open Sans", sans-serif;

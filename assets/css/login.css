@@ -1,0 +1,72 @@
+.login {
+  background-image: url(../img/background-bonsai.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login__titulo {
+  border-bottom: 0.1rem solid var(--cor-escura);
+  color: var(--cor-escura);
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  padding: 3rem 8rem 0.5rem 3rem;
+}
+
+.login__container {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login__formulario {
+  background-color: var(--cor-card-formulario);
+  border-radius: 2rem;
+  box-shadow: -1rem 1rem 0.4rem 0 var(--cor-sombra-card);
+  padding: 3rem;
+}
+
+.login__formulario-label {
+  font-size: 2.4rem;
+}
+
+.login__formulario-input {
+  font-size: 2.4rem;
+}
+
+.login__botao {
+  background-color: var(--cor-botoes);
+  border: none;
+  border-radius: 5.4rem;
+  box-shadow: -10px 10px 2px 0px #4c9f38;
+  color: var(--cor-clara);
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding: 1.6rem;
+}
+
+.login__subtitulo {
+  font-size: 3.5rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.login__texto {
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.login__link-cadastro {
+  color: var(--cor-link-cadastro);
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.login__link-cadastro:hover {
+  text-decoration: underline;
+}
