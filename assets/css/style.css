@@ -8,11 +8,13 @@
 @import url(planos.css);
 @import url(sobre.css);
 @import url(login.css);
+@import url(cadastro.css);
 @import url(rodape.css);
 
 /* VARIÁVEIS CSS */
 :root {
   --cor-botoes: #68D868;
+  --cor-botoes-sombra: #4C9F38;
   --cor-botoes-hover: #4C9F38;
   --cor-gradiente: #dadada;
   --cor-fundo: #FFFDD0;

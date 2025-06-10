@@ -56,3 +56,6 @@
 .rodape__icone-fim {
   margin-left: 1rem;
 }
+.rodape__icone-fim:hover {
+  cursor: pointer;
+}

@@ -13,12 +13,7 @@
   </head>
   <body>
     <header class="cabecalho">
-      <img src="assets/img/logo_parcial.png" alt="" class="cabecalho__logo" />
-      <input
-        type="search"
-        class="cabecalho__busca"
-        placeholder=" Pesquise aqui"
-      />
+      <img src="assets/img/logo_completo_fundo_transparente.png" alt="" class="cabecalho__logo" />
       <nav class="cabecalho__nav">
         <ul class="cabecalho__nav-lista">
           <li class="cabecalho__nav-item">
@@ -34,7 +29,75 @@
       </nav>
     </header>
     <main class="main">
-      
+      <div class="cadastro">
+        <h1 class="cadastro__titulo">Fazer Cadastro</h1>
+        <div class="cadastro__container">
+          <div class="cadastro__imagem">
+            <img
+              src="assets/img/imagens-cadastro.png"
+              alt="Pessoas idosas correndo"
+              class="cadastro__imagem-imagem"
+            />
+          </div>
+          <form class="cadastro__formulario">
+            <div>
+              <label for="nome" class="cadastro__formulario-label"
+                >Nome: </label
+              ><br />
+              <input
+                type="nome"
+                name="nome"
+                id="nome"
+                class="cadastro__formulario-input"
+                placeholder="Digite seu nome"
+                required
+              />
+            </div>
+            <div>
+              <label for="email" class="cadastro__formulario-label"
+                >Email: </label
+              ><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="cadastro__formulario-input"
+                placeholder="Digite seu email"
+                required
+              />
+            </div>
+            <div>
+              <label for="login" class="cadastro__formulario-label"
+                >Login: </label
+              ><br />
+              <input
+                type="text"
+                name="login"
+                id="login"
+                class="cadastro__formulario-input"
+                placeholder="Digite seu login"
+                required
+              />
+            </div>
+            <div>
+              <label for="senha" class="cadastro__formulario-label"
+                >Senha: </label
+              ><br />
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                class="cadastro__formulario-input"
+                placeholder="Insira sua senha"
+                required
+              />
+            </div>
+            <div class="cadastro__container">
+              <input type="submit" class="cadastro__botao" value="Cadastro"></button>
+            </div>
+          </form>
+        </div>
+      </div>
     </main>
     <footer class="rodape">
       <div class="rodape__container">
@@ -78,7 +141,8 @@
           <div>
             <h3 class="rodape__titulo">Endereço</h3>
             <p class="rodape__texto">
-              Fatec Diadema - Luigi Papaiz<br> Av. Luiz Merenda, 443 Campanário<br>
+              Fatec Diadema - Luigi Papaiz<br />
+              Av. Luiz Merenda, 443 Campanário<br />
               Diadema SP, 09931-390
             </p>
           </div>

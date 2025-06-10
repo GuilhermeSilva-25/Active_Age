@@ -13,11 +13,10 @@
   </head>
   <body>
     <header class="cabecalho">
-      <img src="assets/img/logo_parcial.png" alt="" class="cabecalho__logo" />
-      <input
-        type="search"
-        class="cabecalho__busca"
-        placeholder=" Pesquise aqui"
+      <img
+        src="assets/img/logo_completo_fundo_transparente.png"
+        alt=""
+        class="cabecalho__logo"
       />
       <nav class="cabecalho__nav">
         <ul class="cabecalho__nav-lista">
@@ -39,27 +38,31 @@
         <div class="login__container">
           <form class="login__formulario">
             <div>
-              <label for="login" class="login__formulario-label">Login: </label><br>
+              <label for="login" class="login__formulario-label">Login: </label
+              ><br />
               <input
                 type="text"
                 name="login"
                 id="login"
                 class="login__formulario-input"
-                placeholder="Insira seu nome"
+                placeholder="Insira seu login"
+                required
               />
             </div>
             <div>
-              <label for="senha" class="login__formulario-label">Senha: </label><br>
+              <label for="senha" class="login__formulario-label">Senha: </label
+              ><br />
               <input
                 type="password"
                 name="senha"
                 id="senha"
                 class="login__formulario-input"
                 placeholder="Insira sua senha"
+                required
               />
             </div>
             <div class="login__container">
-              <button type="button" class="login__botao">Entrar</button>
+              <input type="submit" class="login__botao" value="Entrar"></button>
             </div>
           </form>
           <div class="login__imagem">
@@ -73,7 +76,8 @@
         <h2 class="login__subtitulo">Sem cadastro?</h2>
         <p class="login__texto">
           <a href="cadastro.html" class="login__link-cadastro"
-            >Clique aqui e crie uma nova conta</a
+            >Clique aqui e crie uma<br />
+            nova conta</a
           >
         </p>
       </div>

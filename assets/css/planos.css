@@ -8,17 +8,17 @@
 }
 
 .planos__titulo {
-  border-bottom: .2rem solid var(--cor-escura);
+  border-bottom: 0.2rem solid var(--cor-escura);
   display: inline-block;
   font-size: 4rem;
-  padding: 0 3rem .5rem 3rem;
+  padding: 0 3rem 0.5rem 3rem;
   text-align: center;
   width: auto;
 }
 
 .planos__card {
   background-color: var(--cor-clara);
-  border: .1rem solid var(--cor-escura);
+  border: 0.1rem solid var(--cor-escura);
   border-radius: 3rem;
   margin: 3rem auto;
   padding: 3rem;
@@ -67,12 +67,32 @@
   list-style: none;
 }
 
-
 .planos__opcoes-item span {
   color: var(--cor-ponto-lista);
 }
 
 .planos__opcoes-item {
   font-size: 1.6rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
+}
+
+.planos__opcoes-botao {
+  background-color: var(--cor-botoes);
+  border: none;
+  border-radius: 5.4rem;
+  color: var(--cor-clara);
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding: 1.6rem;
+}
+
+.plano__container-botao {
+  display: flex;
+  justify-content: center;
+}
+
+.planos__opcoes-botao:hover {
+  background-color: var(--cor-botoes-hover);
 }

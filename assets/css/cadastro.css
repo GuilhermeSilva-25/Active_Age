@@ -1,11 +1,12 @@
-.login {
+.cadastro {
   background-image: url(../img/background-bonsai.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 2rem 0 5rem 0;
 }
 
-.login__titulo {
+.cadastro__titulo {
   border-bottom: 0.1rem solid var(--cor-escura);
   color: var(--cor-escura);
   display: inline-block;
@@ -13,32 +14,32 @@
   font-weight: bolder;
   margin-bottom: 3rem;
   margin-left: 3rem;
-  padding: 3rem 8rem 0.5rem 3rem;
+  padding: 1rem 8rem 0.5rem 3rem;
 }
 
-.login__container {
+.cadastro__container {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
 }
 
-.login__formulario {
+.cadastro__formulario {
   background-color: var(--cor-card-formulario);
   border-radius: 2rem;
   box-shadow: -1rem 1rem 0.4rem 0 var(--cor-sombra-card);
   padding: 3rem;
 }
 
-.login__formulario-label {
+.cadastro__formulario-label {
   font-size: 2.4rem;
 }
 
-.login__formulario-input {
+.cadastro__formulario-input {
   font-size: 2.4rem;
   margin: 0.5rem 0;
 }
 
-.login__botao {
+.cadastro__botao {
   background-color: var(--cor-botoes);
   border: none;
   border-radius: 5.4rem;
@@ -50,29 +51,6 @@
   padding: 1.6rem;
 }
 
-.login__botao:hover {
+.cadastro__botao:hover {
   background-color: var(--cor-botoes-hover);
-}
-
-.login__subtitulo {
-  font-size: 3.5rem;
-  margin-top: 3rem;
-  text-align: center;
-}
-
-.login__texto {
-  padding-bottom: 5rem;
-  text-align: center;
-}
-
-.login__link-cadastro {
-  color: var(--cor-link-cadastro);
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-}
-
-.login__link-cadastro:hover {
-  text-decoration: underline;
 }
