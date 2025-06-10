@@ -1,0 +1,76 @@
+.sobre {
+  padding-bottom: 5rem;
+}
+
+.sobre__titulo {
+  border-bottom: .1rem solid var(--cor-escura);
+  color: var(--cor-clara);
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-left: 3rem;
+  padding: 3rem 8rem .5rem 3rem;
+  text-shadow: -0.1rem -0.1rem 0 var(--cor-escura),
+    0.1rem -0.1rem 0 var(--cor-escura), -0.1rem 0.1rem 0 var(--cor-escura),
+    0.1rem 0.1rem 0 var(--cor-escura);
+}
+
+.sobre__whats {
+  background-color: var(--cor-clara);
+  border: .1rem solid var(--cor-escura);
+  border-radius:2rem;
+  margin: 3rem 6rem 5rem 6rem;
+  padding: 1rem 3rem;
+}
+
+.sobre__whats-titulo {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.sobre__whats-texto {
+  font-size: 2rem;
+}
+
+.sobre__imagens {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.sobre__imagens-imagem {
+  width: 100%;
+}
+
+.sobre__our {
+  border-radius: 3rem;
+  display: flex;
+  background-color: var(--cor-card-our);
+  padding: 3rem;
+  justify-content: space-evenly;
+  margin: 5rem auto 0 auto;
+  width: 95%;
+}
+
+.sobre__card {
+  align-items: center;
+  background-color: var(--cor-clara);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 40%;
+}
+
+.sobre__card-titulo {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.sobre__card-icone {
+  width: 20%;
+}
+
+.sobre__card-texto {
+  font-size: 1.8rem;
+  text-align: center;
+}
