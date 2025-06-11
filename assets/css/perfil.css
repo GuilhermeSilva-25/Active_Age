@@ -1,0 +1,67 @@
+.perfil {
+  display: flex;
+  padding: 5rem 0;
+  justify-content: center;
+}
+/* BIO */
+.perfil__bio {
+  align-items: center;
+  background-color: var(--cor-clara);
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.perfil__bio-detalhe {
+  background-color: var(--cor-detalhe);
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  height: 12rem;
+  width: 100%;
+}
+
+.perfil__bio-foto {
+  border-radius: 50%;
+  margin-top: -6rem;
+  position: relative;
+  width: 15rem;
+  z-index: 1;
+}
+
+.perfil__bio-titulo {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.perfil__bio-usuario,
+.perfil__bio-local {
+  color: var(--cor-texto-claro);
+  font-size: 1.6rem;
+}
+
+.perfil__bio-abas {
+  width: 100%;
+}
+
+.perfil__bio-lista {
+  border-top: 0.1rem solid var(--cor-escura);
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 1.6rem;
+  margin-top: 3rem;
+  padding: 1.6rem;
+}
+
+.perfil__bio-link {
+  color: var(--cor-escura);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.perfil__bio-destaque {
+  border-bottom: .2rem solid var(--cor-destaque);
+  color: var(--cor-destaque);
+  font-weight: bold;
+}
