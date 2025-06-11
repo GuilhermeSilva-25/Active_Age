@@ -1,5 +1,7 @@
 .perfil {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   padding: 5rem 0;
   justify-content: center;
 }
@@ -8,6 +10,7 @@
   align-items: center;
   background-color: var(--cor-clara);
   border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -61,7 +64,191 @@
 }
 
 .perfil__bio-destaque {
-  border-bottom: .2rem solid var(--cor-destaque);
+  border-bottom: 0.2rem solid var(--cor-destaque);
   color: var(--cor-destaque);
   font-weight: bold;
+}
+
+/* INFO */
+.perfil__info {
+  align-items: center;
+  display: flex;
+  gap: 5rem;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.perfil__card {
+  background-color: var(--cor-clara);
+  border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
+  height: 20rem;
+  padding: 2rem;
+}
+
+.perfil__card-titulo-sobre {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.perfil__card-titulo-amigos {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.perfil__card-texto {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.perfil__card-container-sobre {
+  align-items: center;
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 2rem;
+}
+
+.perfil__card-container-amigos {
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.perfil__card-foto-perfil {
+  border-radius: 50%;
+  width: 7rem;
+}
+
+.perfil__card-nome-perfil {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* FOTOS */
+.perfil__fotos {
+  background-color: var(--cor-clara);
+  border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
+  margin-top: 3rem;
+  padding: 2rem;
+  width: 80%;
+}
+
+.perfil__fotos-titulo {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.perfil__fotos-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.perfil__fotos-fotos {
+  border-radius: 3rem;
+  width: 20rem;
+}
+
+/* POSTAGENS */
+.perfil__postagens {
+  background-color: var(--cor-clara);
+  border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
+  margin-top: 3rem;
+  padding: 2rem;
+  width: 80%;
+}
+
+.perfil__postagens-titulo {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.perfil__postagens-container {
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+}
+
+.perfil__postagem-foto {
+  border-radius: 50%;
+  width: 10rem;
+}
+
+.perfil__postagem-texto {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.perfil__postagens-container-data {
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.perfil__postagem-data {
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+/* SERVIÇOS */
+
+.perfil__servicos {
+  background-color: var(--cor-clara);
+  border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
+  margin-top: 3rem;
+  padding: 2rem;
+  width: 80%;
+}
+
+.perfil__servicos-titulo {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.perfil__servicos-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.perfil__sevicos-card {
+  align-items: center;
+  background-color: var(--cor-card-servicos);
+  border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem .5rem;
+  width: 23%;
+}
+
+.perfil__sevicos-card:hover {
+  background-color: var(--cor-card-incentivo);
+  cursor: pointer;
+}
+
+.perfil__servico-texto {
+  color: var(--cor-clara);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.perfil__servico-imagem {
+  border: .2rem solid var(--cor-escura);
+  border-radius: 3rem;
+  width: 20rem;
+  height: 15rem;
 }
