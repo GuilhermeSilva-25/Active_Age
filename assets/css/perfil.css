@@ -13,7 +13,7 @@
   box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
 }
 
 .perfil__bio-detalhe {
@@ -74,7 +74,7 @@
   align-items: center;
   display: flex;
   gap: 5rem;
-  width: 80%;
+  width: 90%;
   justify-content: space-between;
   margin-top: 3rem;
 }
@@ -136,7 +136,7 @@
   box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
   margin-top: 3rem;
   padding: 2rem;
-  width: 80%;
+  width: 90%;
 }
 
 .perfil__fotos-titulo {
@@ -162,7 +162,7 @@
   box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
   margin-top: 3rem;
   padding: 2rem;
-  width: 80%;
+  width: 90%;
 }
 
 .perfil__postagens-titulo {
@@ -207,7 +207,7 @@
   box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
   margin-top: 3rem;
   padding: 2rem;
-  width: 80%;
+  width: 90%;
 }
 
 .perfil__servicos-titulo {
@@ -229,6 +229,7 @@
   box-shadow: 0.2rem 0.2rem 3rem.2rem var(--cor-gradiente);
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   padding: 2rem .5rem;
   width: 24%;
 }
