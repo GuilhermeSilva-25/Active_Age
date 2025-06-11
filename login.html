@@ -38,31 +38,31 @@
         <div class="login__container">
           <form class="login__formulario">
             <div>
-              <label for="login" class="login__formulario-label">Login: </label
+              <label for="login-login" class="login__formulario-label">Login: </label
               ><br />
               <input
                 type="text"
                 name="login"
-                id="login"
+                id="login-login"
                 class="login__formulario-input"
                 placeholder="Insira seu login"
                 required
               />
             </div>
             <div>
-              <label for="senha" class="login__formulario-label">Senha: </label
+              <label for="senha-login" class="login__formulario-label">Senha: </label
               ><br />
               <input
                 type="password"
                 name="senha"
-                id="senha"
+                id="senha-login"
                 class="login__formulario-input"
                 placeholder="Insira sua senha"
                 required
               />
             </div>
             <div class="login__container">
-              <input type="submit" class="login__botao" value="Entrar"></button>
+              <input type="submit" class="login__botao" value="Entrar" onclick="logar()"></button>
             </div>
           </form>
           <div class="login__imagem">
@@ -159,5 +159,6 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

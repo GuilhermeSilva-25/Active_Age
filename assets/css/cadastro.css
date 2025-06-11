@@ -37,6 +37,7 @@
 .cadastro__formulario-input {
   font-size: 2.4rem;
   margin: 0.5rem 0;
+  padding: .5rem;
 }
 
 .cadastro__botao {
