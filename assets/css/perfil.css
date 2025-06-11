@@ -152,7 +152,7 @@
 
 .perfil__fotos-fotos {
   border-radius: 3rem;
-  width: 20rem;
+  width: 15rem;
 }
 
 /* POSTAGENS */
@@ -249,6 +249,6 @@
 .perfil__servico-imagem {
   border: .2rem solid var(--cor-escura);
   border-radius: 3rem;
-  width: 20rem;
+  width: 17rem;
   height: 15rem;
 }
