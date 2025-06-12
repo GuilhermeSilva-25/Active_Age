@@ -62,7 +62,7 @@ if (usuario) {
   link_login.textContent = usuario;
   link_login.href = "#";
   link_login.onclick = () => {
-    if (confirm(usuario + " Você está logado, deseja sair?")) {
+    if (confirm(usuario + " você está logado, deseja sair?")) {
       deslogar();
     }
   };
